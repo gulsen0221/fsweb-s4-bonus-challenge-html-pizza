@@ -63,7 +63,6 @@ address {
   font-style: normal;
 }
 
-
 .container {
   width: 100%;
   max-width: var(--container);
@@ -99,8 +98,13 @@ address {
   align-items: center;
   text-align: center;
   background-color: var(--red);
+  background-image: url("/assets/iteration-1/home-banner.png");
+  background-repeat: no-repeat;
+  background-size: 280% auto;
+  background-position: center bottom;
   color: var(--white);
   padding-top: 3.5rem;
+  padding-bottom: 70vw; 
 }
 
 .hero__logo img {
@@ -142,12 +146,11 @@ address {
   width: 100%;
 }
 
-
 @media (min-width: 768px) {
   .hero {
     height: 100vh;
     min-height: 600px;
-    padding-top: 2rem;
+    padding-bottom: 0;
     background-image: url("/assets/iteration-1/home-banner.png");
     background-size: cover;
     background-position: center bottom;
@@ -468,7 +471,6 @@ address {
   }
 }
 
-/* ========== FOOTER (mobil) ========== */
 .footer {
   background-color: var(--footer-bg);
   color: var(--white);
